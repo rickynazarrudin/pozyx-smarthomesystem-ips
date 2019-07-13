@@ -9,6 +9,7 @@ Elderly tends to have a high degree of dependency to survive. The rate of depend
 	(b) The method we use: I am choosing lateration method and time of arrival. These methods are the most suitable way for ultrawideband to maximize indoor positioning of an object. 
 
 	(c) IPS components, we have to prepare these three things before we could do indoor positioning: Map, tag device, and anchors.
+
 After getting all the data, this sub-system must parse those data to the database system. So we can play more with it!
 # 2. Database System
 # 3. Data Processing System
