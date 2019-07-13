@@ -4,11 +4,11 @@ Elderly tends to have a high degree of dependency to survive. The rate of depend
 # 1. Indoor Positioning System (IPS)
 - This sub-system is responsible for gathering elderly's data through a sensor called pozyx. Pozyx sensor will give us data about the position of the elderly in 2D (x,y) coordinate form. There are 3 main things that has to be considered carefully when we want to implement indoor positioning system. 
 
-(a) Technology we use: in this project, i am going to use pozyx sensor, which is working by using radio frequency signal called ultrawideband. I am using ultrawideband because it provides me the most precise result (up to 10 cm) compare to the others technology like RFID, WiFi, Bluetooth, GPS, etc. 
+	(a) Technology we use: in this project, i am going to use pozyx sensor, which is working by using radio frequency signal called 	ultrawideband. I am using ultrawideband because it provides me the most precise result (up to 10 cm) compare to the others technology like RFID, WiFi, Bluetooth, GPS, etc. 
 
-(b) The method we use: I am choosing lateration method and time of arrival. These methods are the most suitable way for ultrawideband to maximize indoor positioning of an object. 
+	(b) The method we use: I am choosing lateration method and time of arrival. These methods are the most suitable way for ultrawideband to maximize indoor positioning of an object. 
 
-(c) IPS components, we have to prepare these three things before we could do indoor positioning: Map, tag device, and anchors.
+	(c) IPS components, we have to prepare these three things before we could do indoor positioning: Map, tag device, and anchors.
 
 # 2. Database System
 # 3. Data Processing System
