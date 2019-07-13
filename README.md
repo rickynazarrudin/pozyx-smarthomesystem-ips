@@ -11,7 +11,11 @@ Elderly tends to have a high degree of dependency to survive. The rate of depend
 	(c) IPS components, we have to prepare these three things before we could do indoor positioning: Map, tag device, and anchors.
 
 After getting all the data, this sub-system must parse those data to the database system. So we can play more with it!
+
 # 2. Database System
+- This sub-system used by the main system for storing all the raw data. Raw data is received data from indoor positioning system and didn't get any process yet by the system. In this project i am using MySQL database as my storage system. The figure below represents how i construct the database.
+
+
 # 3. Data Processing System
 # 4. Actuator System
 # 5. Android Application UI
