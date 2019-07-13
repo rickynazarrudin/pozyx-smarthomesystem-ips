@@ -1,2 +1,2 @@
-# pozyx-smarthomesystem-ips
-test
+# Pozyx Smart Home System - Indoor Positioning System Based
+Elderly tends to have a high degree of dependency to survive. The rate of dependence on Indonesian elderly in 2017 is at 13.28%. This can be a problem if the elderly do not have people who are always ready to accompany them at any time. Actually to overcome these problems, a development of a robotic service and vital sign based system has been carried out. However, the developed system has not been able to monitor the elderly to the level of activity carried out by them. Therefore, in this Final Project, a design is carried out regarding the smart home system for seniors using sensors and actuators. This smart home system is composed of five sub-systems, including: indoor positioning system, database system, data processing system, actuator system and application user interface.
