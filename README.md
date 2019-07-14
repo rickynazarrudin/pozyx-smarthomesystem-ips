@@ -14,7 +14,7 @@ After getting all the data, this sub-system must parse those data to the databas
 
 # 2. Database System
 - This sub-system used by the main system for storing all the raw data. Raw data is received data from indoor positioning system and didn't get any process yet by the system. In this project i am using MySQL database as my storage system. The figure below represents how i construct the database.
-
+![alt text](https://github.com/rickynazarrudin/pozyx-smarthomesystem-ips/blob/master/db-pozyxapp.png)
 
 # 3. Data Processing System
 - There is a reason why i do not use the data resulted by indoor positioning system directly. If i use the data directly, it will lead me into invalid calculations or monitoring. So before i use those data, i have to filter it in order to clean the data from noise of radio frequency usage. In this project, i am using average filter, since i do not really need a complex filter, i think average filter is simple and good enough for this project.
