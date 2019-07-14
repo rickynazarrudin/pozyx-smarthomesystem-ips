@@ -17,5 +17,12 @@ After getting all the data, this sub-system must parse those data to the databas
 
 
 # 3. Data Processing System
+- There is a reason why i do not use the data resulted by indoor positioning system directly. If i use the data directly, it will lead me into invalid calculations or monitoring. So before i use those data, i have to filter it in order to clean the data from noise of radio frequency usage. In this project, i am using average filter, since i do not really need a complex filter, i think average filter is simple and good enough for this project.
+- Done with filtering business, i can go to the next step which is the main function of the system, estimating elderley's distance coverage activity. To get this job done, i am using euclidean distance.
+
+
 # 4. Actuator System
+- This sub-system is responsible for the door automation task. In order to do that, this system must be able to read current position of the elderly. When the elderly is detected walking or standing around door area, so i can simply assume it that they want to open it. Then this system will do the task.
+
 # 5. Android Application UI
+- Last but not least, i also provide application user interface based on android OS for another user of this system. Another user of this system is elderly's family or maybe their private doctor.
